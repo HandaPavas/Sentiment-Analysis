@@ -11,11 +11,14 @@ Open terminal and type commands as follows:
 >java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 
 Now, open another terminal or shell and execute:
-> python coreference.py (change the paths in file with your current location of the project)
+> python coreference.py 
+(change the paths in file with your current location of the project)
 This co-reference file results in new files with anaphora resolved.
 
-> python NER.py (change the paths in file with your current location of the project)
+> python NER.py 
+(change the paths in file with your current location of the project)
 This NER file results in new files with all the Name-Entity extracted per article.
 
-> python Sentiment_Analysis.py (change the paths in file with your current location of the project)
+> python Sentiment_Analysis.py 
+(change the paths in file with your current location of the project)
 This file generates the final plot and results claming the sentiments per article (in terms of Name-Entity) and the overall estimation.
