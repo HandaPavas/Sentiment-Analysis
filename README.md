@@ -12,6 +12,7 @@ Open terminal and type commands as follows:
 
 Now, open another terminal or shell and execute:
 > python coreference.py 
+
 (change the paths in file with your current location of the project)
 This co-reference file results in new files with anaphora resolved.
 
